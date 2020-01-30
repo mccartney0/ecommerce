@@ -643,6 +643,17 @@
             });
         }
     }
+    function confirmPassword(){
+        var password = document.getElementById("password1");
+        var confirmPassword = document.getElementById("password2");
+
+        if(password.textContent != confirmPassword.textContent){
+            alert("Senhas não conferem!")
+            return;
+        } else{
+            alert("TUDO OK NO ESTABELECIMENTO!")
+        }
+    }
 
     function stickyWidget() {
         // on scroll move the sidebar

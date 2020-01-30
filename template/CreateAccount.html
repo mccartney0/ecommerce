@@ -14,7 +14,7 @@
     <meta name="author" content="Nghia Minh Luong">
     <meta name="keywords" content="Default Description">
     <meta name="description" content="Default keyword">
-    <title>Loja - Página inicial</title>
+    <title>Loja - Create Account</title>
     <!-- Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow:300,400,700%7CMontserrat:300,400,500,600,700,800,900" rel="stylesheet">
     <link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.min.css">
@@ -47,12 +47,12 @@
             <label>Email: </label>
             <input type="email" class="form-control" name="email" />
             <label>Password:</label>
-            <input type="password" class="form-control" name="senha" />
+            <input type="password" id="password1" class="form-control password1" name="senha" />
             <label>Confirm Password:</label>
-            <input type="password" class="form-control" name="senha" />
+            <input type="password"  id="password2" class="form-control password2" name="senha" />
             <br>
-            <input type="submit" value="Create" class="btn btn-primary btn-block">
-
+         <!--   <input type="submit" onclick="confirmPassword()" value="Create" class="btn btn-primary btn-block">-->
+            <button type="submit" onclick="confirmPassword()" class="btn btn-primary btn-block">Create</button>
             
         </form>
         <br>
