@@ -41,9 +41,9 @@
             <h1>Nome do Projeto</h1>
         </div>
 
-        <form action="" method="post" class="form-login">
+        <form action="pesquisarCliente.php" method="post" class="form-login">
             <label>Usuário:</label>
-            <input type="text" class="form-control" name="login" value=""/>
+            <input type="text" class="form-control" name="user" value=""/>
             <label>Senha:</label>
             <input type="password" class="form-control" name="senha" />
             <br>
