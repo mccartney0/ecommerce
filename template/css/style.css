@@ -3568,9 +3568,10 @@ textarea.form-control {
   background-color: #f5f3f0; }
 
 .ps-home-contact {
-  position: relative; }
+  position: relative;
+}
   .ps-home-contact #contact-map {
-    height: 680px; }
+    height: 550px;}
   .ps-home-contact .ps-home-contact__form {
     position: absolute;
     top: 0;
@@ -4900,7 +4901,7 @@ textarea.form-control {
 
 .ps-contact #contact-map {
   margin-bottom: 80px;
-  height: 560px; }
+  height: 660px; }
 
 .ps-contact .ps-contact__form label {
   font-weight: 400;
@@ -6026,6 +6027,112 @@ html .bg--parallax {
   opacity: 0.5;
   background-color: #000;
   z-index: -5; }
+
+.container-login{
+height: 100%;
+align-content: center;
+    position: absolute;
+    top: 30%;
+    left: 70%
+}
+
+.card-login{
+height: 370px;
+margin-top: ;
+margin-bottom: ;
+width: 400px;
+background-color: snow!important;
+}
+
+a.ms{
+font-size: 60px;
+margin-left: 10px;
+color: #2ac37d;
+}
+a.ms:hover{
+color: greenyellow;
+cursor: pointer;
+}
+.social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: #2ac37d;
+}
+.social_icon span:hover{
+color: greenyellow;
+cursor: pointer;
+}
+.input-group-prepend span{
+width: 50px;
+background-color: #2ac37d;
+color: black;
+border:0 !important;
+}
+.card-header h3{
+color: grey;
+}
+
+.card-footer {
+    padding: .75rem 1.25rem;
+    background-color: rgba(0,0,0,.05);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    text-align: center;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -26px;
+}
+
+
+
+input.form-login:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: grey;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.register{
+    height: 100px;
+    width: 100px;
+    background-clip: blue;
+    float: right;
+        
+}
+
+
+.login_btn{
+color: black;
+background-color: #2ac37d;
+width: 50%;
+    margin-left: 25%;
+}
+
+.login_btn:hover{
+color: black;
+background-color: greenyellow;
+}
+
+.links{
+color: skyblue;
+}
+
+.links a{
+margin-left: 4px;
+}
 
 .margin-0 {
   margin: 0; }
